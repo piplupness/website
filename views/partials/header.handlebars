@@ -27,6 +27,7 @@
 	</a>
 
 	<nav>
+		<button class="dropdown-button" id="about-button">About</button>
 		<a href="/#about">{{ locale.nav.about }}</a>
 		<a href="/#faq">{{ locale.nav.faq }}</a>
 		<a href="/#credits">{{ locale.nav.credits }}</a>
@@ -34,6 +35,18 @@
 		<a href="/progress" class="keep-on-mobile">{{ locale.nav.progress }}</a>
 		<a href="/blog">{{ locale.nav.blog }}</a>
 		<a href="/account/upgrade" class="keep-on-mobile">{{ locale.nav.donate }}</a>
+
+		<div class="dropdown" id="about-dropdown">
+			<div class="top">
+			<a href="/#credits">
+				<p>{{ locale.nav.credits }}</p>
+				<p>Who done it?</p>
+			</a>
+			</div>
+			<a href="/#about">{{ locale.nav.about }}</a>
+			<a href="/#faq">{{ locale.nav.faq }}</a>
+			<a href="/blog">{{ locale.nav.blog }}</a>
+		</div>
 	</nav>
 
 	<div class="right-section">

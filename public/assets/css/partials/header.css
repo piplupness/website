@@ -23,6 +23,28 @@ header nav a:hover {
 	transition: color 50ms ease-in-out;
 }
 
+header button {
+	background: none;
+	color: var(--text-shade-1);
+	padding: 0;
+}
+header button:hover {
+	background: none;
+	color: var(--text-shade-3);
+}
+
+header div.dropdown {
+	display: block;
+	background: /*var(--bg-shade-3)*/ #f00;
+	border-radius: 8px;
+}
+header div.dropdown .top {
+	padding: 32px 18px;
+}
+header div.dropdown .top a {
+
+}
+
 header .right-section {
 	display: grid;
 	grid-auto-flow: column;
